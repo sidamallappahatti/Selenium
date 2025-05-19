@@ -23,9 +23,6 @@ public class TestSelenium10_MiniProject_Selenium extends CommonToAll{
 //            throw new Exception("CURA Healthcare Service text is not visible");
         }
 
-
-
-
         closeBrowser(driver);
 
     }
