@@ -25,6 +25,7 @@ public class TestSelenium10_MiniProject_Selenium extends CommonToAll{
 
         closeBrowser(driver);
 
+
     }
 
 }
