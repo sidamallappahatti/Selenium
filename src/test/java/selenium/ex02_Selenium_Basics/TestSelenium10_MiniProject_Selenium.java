@@ -17,7 +17,7 @@ public class TestSelenium10_MiniProject_Selenium extends CommonToAll{
 
         if (driver.getPageSource().contains("CURA Healthcare Service")){
             Assert.assertTrue(true);
-            System.out.println("Test case pass");
+            System.out.println("Test case pass!");
         }else {
             Assert.fail("CURA Healthcare Service text is not visible");
 //            throw new Exception("CURA Healthcare Service text is not visible");
