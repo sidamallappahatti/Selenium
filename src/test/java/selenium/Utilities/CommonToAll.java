@@ -1,7 +1,6 @@
-package selenium.ex02_Selenium_Basics;
+package selenium.Utilities;
 
 import org.openqa.selenium.WebDriver;
-import org.openqa.selenium.edge.EdgeDriver;
 
 public class CommonToAll {
 

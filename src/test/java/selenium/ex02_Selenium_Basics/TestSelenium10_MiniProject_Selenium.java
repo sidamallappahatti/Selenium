@@ -5,8 +5,9 @@ import org.openqa.selenium.WebDriver;
 import org.openqa.selenium.edge.EdgeDriver;
 import org.testng.Assert;
 import org.testng.annotations.Test;
+import selenium.Utilities.CommonToAll;
 
-public class TestSelenium10_MiniProject_Selenium extends CommonToAll{
+public class TestSelenium10_MiniProject_Selenium extends CommonToAll {
     @Description("Open the url")
     @Test
     public void test_Selenium() throws Exception{

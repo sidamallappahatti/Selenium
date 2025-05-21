@@ -22,8 +22,8 @@ public class TestSelenium15_OptionsClasses {
         // localstorage, download ?
 
 
-//        edgeOptions.addArguments("--window-size=1280,720");
-//        edgeOptions.addArguments("--window-size=800,600");
+        // edgeOptions.addArguments("--window-size=1280,720");
+        // edgeOptions.addArguments("--window-size=800,600");
         edgeOptions.addArguments("--incognito");
         edgeOptions.addArguments("--start-maximized");
 
