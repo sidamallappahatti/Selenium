@@ -4,6 +4,7 @@ import org.openqa.selenium.By;
 import org.openqa.selenium.WebDriver;
 import org.openqa.selenium.edge.EdgeDriver;
 import org.openqa.selenium.edge.EdgeOptions;
+import org.openqa.selenium.firefox.FirefoxDriver;
 import org.openqa.selenium.support.ui.ExpectedConditions;
 import org.openqa.selenium.support.ui.WebDriverWait;
 import org.testng.annotations.AfterTest;
@@ -25,7 +26,6 @@ public class CommonToAll {
         driver.quit();
     }
 
-
     public void waitForVisibility(WebDriver driver, int timeInSeconds, String xpath) {
         WebDriverWait wait = new WebDriverWait(driver, Duration.ofSeconds(timeInSeconds));
         wait.until(ExpectedConditions.visibilityOfElementLocated(By.xpath(xpath)));
@@ -37,6 +37,8 @@ public class CommonToAll {
         wait.until(ExpectedConditions.textToBePresentInElement(driver.findElement(By.xpath(xpath)), text));
 
     }
+
+
     public EdgeDriver driver;
     @BeforeTest
     public void setUp(){
@@ -44,6 +46,7 @@ public class CommonToAll {
         EdgeOptions edgeOptions=new EdgeOptions();
         edgeOptions.addArguments("--guest");
         driver=new EdgeDriver(edgeOptions);
+
     }
 
     @AfterTest
