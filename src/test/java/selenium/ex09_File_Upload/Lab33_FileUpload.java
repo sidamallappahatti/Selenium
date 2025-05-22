@@ -1,4 +1,4 @@
-package selenium.ex08_File_Upload;
+package selenium.ex09_File_Upload;
 
 import org.openqa.selenium.By;
 import org.openqa.selenium.WebElement;
