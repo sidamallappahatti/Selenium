@@ -5,7 +5,7 @@ import org.openqa.selenium.By;
 import org.testng.annotations.Test;
 import selenium.Utilities.CommonToAll;
 
-public class Lab34_WebTable_test1 extends CommonToAll {
+public class Lab35_WebTable_test1 extends CommonToAll {
 
     @Test(groups = "QA")
     @Description("Test Web Table")

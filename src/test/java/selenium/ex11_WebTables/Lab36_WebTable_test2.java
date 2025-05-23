@@ -8,7 +8,7 @@ import selenium.Utilities.CommonToAll;
 
 import java.util.List;
 
-public class Lab35_WebTable_test2 extends CommonToAll {
+public class Lab36_WebTable_test2 extends CommonToAll {
 
     @Test(groups = "QA")
     @Description("Web Table testing")
