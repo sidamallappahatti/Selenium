@@ -1,4 +1,4 @@
-package selenium.ex09_Windows;
+package selenium.ex10_Windows;
 
 import org.openqa.selenium.By;
 import org.openqa.selenium.WebElement;
